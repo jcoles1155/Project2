@@ -52,19 +52,28 @@ ini_set('display_errors', 1);
 	
 		<p class='password'>
 					</p>
+					
+		<h2>Your current Password</h2>
+		
+			Your Password is....			
+					
+		<h2>Generate a new Password!!</h2>
 		
 		<form>
 			<p class='options'>
 			
-				<label for='number_of_words'># of Words</label>
-				<input maxlength=1 type='text' name='number_of_words' id='number_of_words' value=''>  (Max 9)
+				<label name='count'># of Words</label>
+				<input maxlength=1 type='text' name='count' id='count' value=''>  (Max 9)
+				<br> 
+				<label name='uppercase'>Uppercase first letter?</label>
+				<input type='checkbox' name='uppercase' value = 'checkbox' >
 				<br>
-					
-				<input type='checkbox' name='add_number' id='add_number' > 
-				<label for='add_number'>Add a number</label>
+				<label name='symbol'>Use a symbol?</label>
+				<input type='checkbox' name='symbol' value = 'symbol' >
 				<br>
-				<input type='checkbox' name='add_symbol' id='add_symbol' > 
-				<label for='add_symbol'>Add a symbol</label>
+				<label name='number'>Include a number?</label>
+				<input type='checkbox' name='number' value = 'number' >
+				<br>
 			</p>
 		
 			<input type='submit' class='btn btn-default' value='Another Password'>
