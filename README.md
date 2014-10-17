@@ -7,4 +7,5 @@ This project I found personally challenging because this is my first
 time implementing logic into code; that being said it was very beneficial
 to struggle through it as I learned very much.  
 
---I intend to attend the session for my demo
+demo is on jing @ http://screencast.com/t/7M2bPB2u
+
