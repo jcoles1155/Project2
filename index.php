@@ -54,20 +54,17 @@ ini_set('display_errors', 1);
 					</p>
 					
 		<h2>Your current Password</h2>
-		
-			Your Password is....			
+			
+			Your Password is....<? echo $new_password ?>			
 					
 		<h2>Generate a new Password!!</h2>
 		
-		<form>
+		<form method = "POST" action="index.php">
 			<p class='options'>
 			
 				<label name='count'># of Words</label>
 				<input maxlength=1 type='text' name='count' id='count' value=''>  (Max 9)
 				<br> 
-				<label name='uppercase'>Uppercase first letter?</label>
-				<input type='checkbox' name='uppercase' value = 'checkbox' >
-				<br>
 				<label name='symbol'>Use a symbol?</label>
 				<input type='checkbox' name='symbol' value = 'symbol' >
 				<br>
